@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested Table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .needs-validation {
+            background-color: #d6d6d6;
+        }
+        .btn-Classes-bg-color{
+            color: #fff;
+            background-color: rgba(34, 29, 0, 0.507);
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <form class="row g-3 needs-validation m-3 py-4" novalidate>
+
+            <div class="col-md-6">
+                <label for="validationCustom04" class="form-label">Subject</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Accounting-ACC</option>
+                    <option value="1">OOP</option>
+                    <option value="2">JAVA</option>
+                    <option value="3">React</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid Subject.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom04" class="form-label">Location</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">--All--</option>
+                    <option value="1">Lahore</option>
+                    <option value="2">Karachi</option>
+                    <option value="3">Islamabad</option>
+
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid Room Type.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">Keywords</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">Days</label>
+                <div class="d-flex">
+                    <div class="form-check">
+                        <label class="form-check-label" for="Su">
+                            Su
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="Su">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="Mo">
+                            Mo
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="Mo">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="Tu">
+                            Tu
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="Tu">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="We">
+                            We
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="We">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="Th">
+                            Th
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="Th">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for="Fr">
+                            Fr
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="Fr">
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label" for=" Sa">
+                            Sa
+                        </label>
+                        <input class="form-check-input" type="checkbox" id=" Sa">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="validationCustom04" class="form-label">Class Type</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">--All--</option>
+                    <option value="1">Cs-101</option>
+                    <option value="2">Cs-102</option>
+                    <option value="3">Cs-103</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid Subject.
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">Day/night</label>
+                <div class="d-flex">
+                    
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault12">
+                        <label class="form-check-label" for="flexRadioDefault12">
+                            Day only
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault13">
+                        <label class="form-check-label" for="flexRadioDefault13">
+                            Night only
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+        </form>
+    </section>
+    <script src="../task01/formValidate.js"></script>
+</body>
+</html>
